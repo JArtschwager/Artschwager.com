@@ -127,7 +127,7 @@ body {
 	 bottom: 0;
 	 text-align: center;
 	 width: 100%;
-	font-size: 15px;
+	font-size: 14px;
     background-color: #ffffff;
     opacity: 0.7;
 	filter: alpha(opacity=60); /* For IE8 and earlier */
@@ -160,10 +160,7 @@ body {
 	font-size: 25px;
 }
 
-.bio-row {
-	display: inline;
 
-}
 /* testing out space in between cards */
 .row {
 	margin-bottom: 20px;
@@ -177,23 +174,7 @@ body {
 	margin-bottom: 40px;
 }
 
-/* below is animation info i took */
 
-/* .body {
-	height: 1000%;
-	width: 80%;
-	background-color: hsla(60%, 40%, 30%, .4);
-	background-repeat: repeat-x;
-	background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
-	background-size: 100% 50%, 45% 45%, 1000px, 400px 260px;
-	/* animation: 50s para infinite linear; */
-
-
-@keyframes para {
-	100% {
-		background-position: -5000px 20%, -800px 95%, 500px 0, 1000px 100%, 400px 0;
-	}
-}
 .home-text {
 	font-size: 100px;
 	margin-bottom: 50px;
@@ -217,37 +198,4 @@ body {
 	1px -1px 0 rgb(255, 255, 255),
 	-1px 1px 0 rgb(40, 7, 7),
 	1px 1px 0 rgb(249, 249, 249);
-}
-
-/* all below is the footer */
-.spacer {
-	padding-right: 20px;
-}
-.copyright {
-	padding-top: 20px;
-}
-
-.footer-style {
-	background-color: rgb(31, 108, 225);
-	padding: 15px;
-	display: inline;
-
-}
-
-footer {
-	background-color: rgb(31, 108, 225);
-	padding: 15px;
-	color: white; 
-}
-
-
-.connectFooter {
-	padding: 10px;
-}
-
-.linkimages {
-	display: inline;
-	text-align: center;
-    text-decoration: black;
- 
 }

@@ -7,12 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/para.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
     <title>Artschwager</title>
 </head>
 
 <body>
-
 
     <!-- the header first make the whole top fixed-->
     <nav class="navbar navbar-expand-lg nav text-light nav-color">
@@ -27,16 +31,23 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
+                    <!-- below will need links actually -->
                     <li class="nav-item active">
-                        <a class="nav-link" href="about-link">About Me
+                        <a class="nav-link" href="about-link">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="programming">Programming</a>
+                        <a class="nav-link" href="programming">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portolio">Portfolio</a>
+                        <a class="nav-link" href="portolio">Tech Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portolio">Art Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portolio">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -50,7 +61,9 @@
             <h1 class="home-text">Jennifer Artschwager</h1>
         </div>
         <div class="bottom-part">
-                <h2 class="text-bottom"><br></h2>
+            <h2 class="text-bottom">
+                <br>
+            </h2>
         </div>
     </div>
 
@@ -60,202 +73,19 @@
         <div class="row">
             <div class="header lead-body about-link">About Jennifer
             </div>
-            <div class="row bio-row">
-                <div class="col-md-12">
-                    <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
-                </div>
-                <h3>who is Jennifer Artschwager?</h3>
-                <p class="paragraph-details">Jennifer Artschwager is a New York born full stack web designer living in New Jersey.  After studying art and design in college, Jennifer decided to join the Rutgers coding bootcamp to move her artistic design eye into the world of web design. 
-                    <br> 
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
+            </div>
+            <div class="col-md-8">
+                <h3>About Jennifer Artschwager</h3>
+                <p class="paragraph-details">Web Designer, artist, cooking enthusist, music junky.
+                    <br>
                 </p>
-                <h3>Programming</h3>
-                <p>
-                    <ul>
-                        <li>
-                            HTML. CSS. 
-                        </li>
-                        <li>
-                            node.js
-                        </li>
-                        <li>
-                            express
-                        </li>
-                    </ul>
-                </p>
-
-                <h3>Work Experience</h3>
-                <p>I have been fortunate </p>
-
-                <h4>Associate Director of Aquatics</h4>
-                <p> Working as a Director of aquatics I oversaw a department 
-
-                </p>
-
+                <!-- add href below -->
+                <a href="****enterHrefforaboutmepage" target="_blank" class="btn btnSite btnCustom float-right">Learn More</a>
             </div>
-            <div class="row experience-row">
-                <div class="col-md-12">
-                    <p class="expereince-details">
-                        Jennifer has had the pleasure and privlage really of working in very different industiries. All being equally entertaining
-                        and a part of my journey to find my love of coding. Art's Management Aquatics Animal Welfare Health
-                        Care coding coding coding!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="second-parallax">
-    </div>
-
-    <div class="container">
-        <h1 class="header lead-body">And first, we eat</h1>
-        <h2 class="mainboxtitle">Original recipes inspired by the italian grandma's of my dear Jersey friends.</h2>
-        <p>Inspired by food allergies, I soon realized frozen foods and TGIF friday would never again be an option in my life.
-            Since developing allergies to Soy, nuts, avocado, apples, pears, coconut, and counting, i have learned to produce
-            all my foods from scratch.</p>
-        <!-- Here I create the container for the margins to be set, then add the cards for the picture images. -->
-        <div class="row">
-            <!-- Row 1 -->
-            <div class="col-md-4">
-                <div class="card" id="port-image-2" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/gnocchi.JPG">
-                    <div class="card-block">
-                        <h4 class="card-title interesttitle">Gnocchi & cream sauce</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card" id="port-image-2" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/orzo.JPG" alt="Chicken Orzo">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Chicken Orzo</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="cold-md-4">
-                <div class="card" id="port-image-3" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/spaghetti.JPG" alt="assorted calf and kid keychains">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Handmade fettuccine</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- This is the second row -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" id="port-image-4" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/chickenparm.JPG" alt="self portrait">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Chicken Parm</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="port-image-5" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/cinnabun.JPG" alt="flowers white and blue">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Cinnamon Rolls</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="cold-md-4">
-                <div class="card" id="port-image-6" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/brushetta.JPG" alt="women in marker drawing">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Sausage Bruschetta</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="third-parallax">
-    </div>
-    <!-- renamed third parallax but actually a new one third is below. -->
-    <div class="container">
-        <h1 class="header lead-body">Art art art</h1>
-        <h2 class="mainboxtitle">From creating custom childrens books on photoshop to more tradiotnal art forms</h2>
-
-
-        <!-- this is the third row -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" id="port-image-7" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/jacksonicecream.jpg" alt="Boy eating icecream">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Childrens Book</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="port-image-8" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/final-page.jpg" alt="flowers white and blue">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Solo Tassel Necklace</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="cold-md-4">
-                <div class="card" id="port-image-9" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/pitty.jpeg" alt="women in marker drawing">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">text</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- This is the 4th row -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" id="port-image-10" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/selfport.jpeg" alt="self portrait">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Arrowhead leather Earrings</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="port-image-11" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/flower.painting-2.jpg" alt="flowers white and blue">
-                    <div class="card-block card-styles">
-                        <h4 class="card-title interesttitle">Assorted Bracelets</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="cold-md-4">
-                <div class="card" id="port-image-12" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/Flowers.orange.jpg" alt="women in marker drawing">
-                    <div class="card-block">
-                        <!-- <h4 class="card-title interesttitle">Large tassel trio on rubber cord</h4> -->
-                        <!-- <p class="card-text card-text-edit">text</p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-    <div class="container">
-        <div class="row">
-            <div class="header lead-body about-link">Coding Resume</div>
-        </div>
-        <div class="row bio-row">
-            <div class="col-md-12">
-                <img class="selfport" src="" alt="Image of Camille">
-            </div>
-            <p class="paragraph-details">Jennifer Artschwager is a New York born, Jersey living full stack web designer. As my interests have changed
-                from paint to the computer i bring the design eye with me to create a visual fun stuff and such.
-                <br> Jennifer attended the Fashion insititute of technology.
-            </p>
         </div>
         <div class="row experience-row">
             <div class="col-md-12">
@@ -268,41 +98,100 @@
         </div>
     </div>
 
+
+    <div class="second-parallax">
+    </div>
+    <!-- tech port - para 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="header lead-body about-link">Tech Portfolio
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
+            </div>
+            <div class="col-md-8">
+                <h3>About Jennifer Artschwager</h3>
+                <p class="paragraph-details">Freelance and Project work Click to view sites created for clients or as personal projects to explore new
+                    libraries, languages, or packages that interest me.
+                    <br>
+                </p>
+                <!-- add href below -->
+                <a href="****enterHrefforaboutmepage" target="_blank" class="btn btnSite btnCustom float-right">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="second-parallax">
+    </div>
+    <!-- end tech port - para 3 -->
+
+
+    <!-- art port - para 4 -->
+    <div class="container">
+        <div class="row">
+            <div class="header lead-body about-link">Art Portfolio
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
+            </div>
+            <div class="col-md-8">
+                <h3>About Jennifer Artschwager</h3>
+                <p class="paragraph-details">Mixed Media from Photoshop to oil paintings
+                    <br>
+                </p>
+                <!-- add href below -->
+                <a href="****enterHrefforaboutmepage" target="_blank" class="btn btnSite btnCustom float-right">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="second-parallax">
+    </div>
+    <!-- end art port - para 4 -->
+
+    </div>
+
+
     <!-- creating a sticky footer for all of the pages -->
     <!-- <div class="container footer-style"> -->
     <footer class="footer">
-        <div class="container footer-style">
+        <div class="footer-style">
 
             <h3 class="connectFooter"> Connect.
                 <span class="spacer"> </span> Contact.
-              <span class="spacer"></span> Code.</h3>
+                <span class="spacer"></span> Code.</h3>
 
             <!-- links to etsy, and email -->
             <div class="container">
-                
+
                 <span class="spacer"></span>
                 <div class="linkimages">
-                        <a href="https://www.linkedin.com/in/jartschwager/" target="_blank">
-                            <img border="0" alt="Github account" src="./assets/img/linkedin.png" width="100px">
-                        </a>
-                    </div>
-                    <span class="spacer"></span>
+                    <a href="https://www.linkedin.com/in/jartschwager/" target="_blank">
+                        <img class="imagesize" border="0" alt="Github account" src="./assets/img/linkedin.png">
+                    </a>
+                </div>
+                <span class="spacer"></span>
                 <div class="linkimages">
 
                     <a href="mailto:Jennifer@artschwager.com">
-                        <img border="0" alt="email link" src="./assets/img/email.png" width="100px">
+                        <img class="imagesize" border="0" alt="email link" src="./assets/img/email.png">
                     </a>
                 </div>
                 <div class="linkimages">
-                        <a href="https://github.com/JArtschwager" target="_blank">
-                            <img border="0" alt="Github account" src="./assets/img/github.png" width="100px">
-                        </a>
-                    </div>
+                    <a href="https://github.com/JArtschwager" target="_blank">
+                        <img class="imagesize" border="0" alt="Github account" src="./assets/img/github.png">
+                    </a>
+                </div>
             </div>
-            <p class="copyright">Jennifer Artschwager &copy 2018 </p>
+            <p class="copyright">Jennifer Artschwager 2018 </p>
         </div>
     </footer>
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
