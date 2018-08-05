@@ -7,50 +7,42 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/techPort.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
-      <!-- the header first make the whole top fixed-->
-      <nav class="navbar navbar-expand-lg nav text-light nav-color">
 
-        <!-- then make a container so the text is in from the edge -->
-        <div class="container">
-            <!-- <a class="navbar-brand brand-name navbar-fixed-top"></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <!-- below will need links actually connected later -->
-                        <li class="nav-item">
-                                <a class="nav-link">J. Artschwager</a>
-                        </li>
-                        <!-- change the below class to stop getting larger on hover-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-link">Home
-                        
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="programming">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portolio">Tech Portfolio</a>
-                            <span class="sr-only">(current)</span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portolio">Art Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portolio">Resume</a>
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg nav text-light nav-color nav-tech">
+
+                <!-- then make a container so the text is in from the edge -->
+                <div class="container">
+                    <!-- <a class="navbar-brand brand-name navbar-fixed-top"></a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarNavDropdown"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/aboutme">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/techPortfolio">Tech Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/artPortfolio">Art Portfolio</a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
-        </div>
-    </nav>
+            </nav>
 
 
     <div class="parallax techBannerImage">
@@ -159,6 +151,28 @@
                     </div>
                  </div>
                  <!-- ending container -->
+             <!-- row 5 React Game begins -->
+             <div class="row rowStyling">
+                    <div class="col-md-4">
+                        <div id="port-image-2" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/img/doJerseyimage.png">
+                            <div class="card-block">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-8">
+                        <div class="cardStyleR">
+                            <div class="card-body">
+                                <h5 class="card-title thin-lead-text">Cat in the Box Memory Game</h5>
+                                <p class="card-text">Using react, this memory game was a practice in... add text here? </p>
+                                <a href="https://jartschwager.github.io/ReactGame/" target="_blank" class="btn btnSite btnCustom float-right">View the site</a>
+                                <a href="https://github.com/JArtschwager/ReactGame" target="_blank" class="btn btnGithub btnCustom float-right">View the code</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- ending container -->     
                 </div>
 
    <div class="techBannerImage">

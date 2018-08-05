@@ -2,6 +2,8 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
+const routes = require("./routes");
+
 
 //initialize server
 var app = express();
@@ -10,7 +12,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 //css file
-app.use(express.static('/public'));
+app.use(express.static(__dirname + '/public' ));
 
 // Set up middleware (body-parser)
 app.use(bodyParser.urlencoded({extended: true}));

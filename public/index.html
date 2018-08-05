@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/para.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
 
 
@@ -19,40 +18,35 @@
 
 <body>
 
-    <!-- the header first make the whole top fixed-->
-    <nav class="navbar navbar-expand-lg nav text-light nav-color">
+    <nav class="navbar navbar-expand-lg nav text-light nav-color nav-home">
 
-        <!-- then make a container so the text is in from the edge -->
         <div class="container">
-            <!-- <a class="navbar-brand brand-name navbar-fixed-top"></a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarNavDropdown"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav full-list">
-                    <!-- below will need links actually -->
-                    <li class="nav-item active">
-                        <a class="nav-link nav-style" href="about-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-style" href="programming">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-style" href="portolio">Tech Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-style" href="portolio">Art Portfolio</a>
-                    </li>
-                </ul>
-            </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/aboutme">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/techPortfolio">Tech Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/artPortfolio">Art Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
         </div>
     </nav>
 
-
+    <!-- 1st background image -->
     <div class="parallax first-parallax">
-        <!-- below is text over 1st background image -->
         <div class="home-page-text nav-item transbox">
             <h1 class="home-text">Jennifer Artschwager</h1>
         </div>
@@ -64,98 +58,76 @@
     </div>
 
 
-    <!-- second time doing parrallax -->
+    <!-- second time doing parrallax /about me-->
     <div class="container">
         <div class="row">
-            <div class="header lead-body about-link">About Jennifer
+            <div class="col-md-5">
+                <img class="selfport" src="./assets/img/selfportbranded.jpg" alt="Image of Jennifer">
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
-            </div>
-            <div class="col-md-8">
-                <h3>About Jennifer Artschwager</h3>
-                <p class="paragraph-details">Web Designer, artist, cooking enthusist, music junky.
+            <div class="col-md-7">
+                    <div class="header lead-body about-link indextitle">About Jennifer
+                        </div>
+                    <h3>Web designer, artist, cooking enthusist, music junky.</h3>  
+                <p class="paragraph-details">Read more for a general overview of interests and background of Jennifer Artschwager.
                     <br>
                 </p>
-                <!-- add href below -->
-                <a href="****enterHrefforaboutmepage" target="_blank" class="btn btnSite btnCustom float-right">Learn More</a>
-            </div>
-        </div>
-        <div class="row experience-row">
-            <div class="col-md-12">
-                <p class="expereince-details">
-                    Jennifer has had the pleasure and privlage really of working in very different industiries. All being equally entertaining
-                    and a part of my journey to find my love of coding. Art's Management Aquatics Animal Welfare Health Care
-                    coding coding coding!
-                </p>
+                <a href="/public/aboutme.html" target="_blank" class="btn home-pg-btn btnCustom float-center">Learn More</a>
             </div>
         </div>
     </div>
-
 
     <div class="second-parallax">
     </div>
     <!-- tech port - para 3 -->
+<div class="techPortRow">
     <div class="container">
         <div class="row">
-            <div class="header lead-body about-link">Tech Portfolio
+            <div class="col-md-5">
+                <img class="selfport" src="./assets/img/hellojs.png" alt="Image of Jennifer">
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
-            </div>
-            <div class="col-md-8">
-                <h3>About Jennifer Artschwager</h3>
-                <p class="paragraph-details">Freelance and Project work Click to view sites created for clients or as personal projects to explore new
-                    libraries, languages, or packages that interest me.
+            <div class="col-md-7">
+                    <div class="header lead-body about-link float-center">Tech Portfolio
+                    </div>
+                <h3>Freelance and Project work</h3>
+                <p class="paragraph-details">Explore sites created for clients or as personal projects to explore new libraries, languages, or packages that interest me.
                     <br>
                 </p>
                 <!-- add href below -->
-                <a href="****enterHrefforaboutmepage" target="_blank" class="btn btnSite btnCustom float-right">Learn More</a>
+                <a href="/public/techPort.html" target="_blank" class="btn home-pg-btn btnCustom float-center">Learn More</a>
             </div>
         </div>
     </div>
-
-
-    <div class="second-parallax">
+</div>    
+<div class="second-parallax">
     </div>
     <!-- end tech port - para 3 -->
 
+    <!-- <div class="third-parallax">
+    </div> -->
 
     <!-- art port - para 4 -->
     <div class="container">
-        <div class="row">
-            <div class="header lead-body about-link">Art Portfolio
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="selfport" src="./assets/img/flowers.jpg" alt="Image of Jennifer">
+                </div>
+                <div class="col-md-7">
+                        <div class="header lead-body about-link float-center">Art Portfolio
+                        </div>
+                    <h3>Fine arts and Photoshop</h3>
+                    <p class="paragraph-details">View a few samples of different art pieces including oil paintings, acyrlic, mix media, and computer art. 
+                        <br>
+                    </p>
+                    <a href="/public/techPort.html" target="_blank" class="btn home-pg-btn btnCustom float-center">Learn More</a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <img class="selfport" src="./assets/img/selfport.JPG" alt="Image of Jennifer">
+        <div class="third-parallax">
             </div>
-            <div class="col-md-8">
-                <h3>About Jennifer Artschwager</h3>
-                <p class="paragraph-details">Mixed Media from Photoshop to oil paintings
-                    <br>
-                </p>
-                <!-- add href below -->
-                <a href="****enterHrefforaboutmepage" target="_blank" class="btn btnSite btnCustom float-right">Learn More</a>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="second-parallax">
-    </div>
     <!-- end art port - para 4 -->
-
     </div>
-
 
     <!-- creating a sticky footer for all of the pages -->
-    <!-- <div class="container footer-style"> -->
     <footer class="footer">
         <div class="footer-style">
 
@@ -163,9 +135,7 @@
                 <span class="spacer"> </span> Contact.
                 <span class="spacer"></span> Code.</h3>
 
-            <!-- links to etsy, and email -->
             <div class="container">
-
                 <span class="spacer"></span>
                 <div class="linkimages">
                     <a href="https://www.linkedin.com/in/jartschwager/" target="_blank">
@@ -189,13 +159,8 @@
         </div>
     </footer>
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-
-    <script src="animate.js"></script>
-
-
 
 </body>
 

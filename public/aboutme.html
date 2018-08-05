@@ -9,39 +9,33 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/aboutme.css">
     <link rel="stylesheet" href="./assets/css/para.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
       <!-- the header first make the whole top fixed-->
-      <nav class="navbar navbar-expand-lg nav text-light nav-color">
+      <nav class="navbar navbar-expand-lg nav text-light nav-color .nav-about">
 
         <!-- then make a container so the text is in from the edge -->
         <div class="container">
             <!-- <a class="navbar-brand brand-name navbar-fixed-top"></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse">
                     <ul class="navbar-nav">
-                        <!-- below will need links actually connected later -->
                         <li class="nav-item">
-                                <a class="nav-link">J. Artschwager</a>
-                        </li>
-                        <!-- change the below class to stop getting larger on hover-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Home
-                        
-                            </a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/aboutme">About Me</a>
+                            <a class="nav-link active" href="/aboutme">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/techPortfolio">Tech Portfolio</a>
-                            <span class="sr-only">(current)</span>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/artPortfolio">Art Portfolio</a>
@@ -96,13 +90,6 @@
 
          <!-- row 2 Train that Dog begins -->
          <div class="row rowStyling">
-                <div class="col-md-4">
-                    <div class="cardStyleL" id="port-image-2" style="width: 20rem;">
-                        <img class="card-img-top" src="./assets/img/TrainthatDog.png">
-                        <div class="card-block">
-                        </div>
-                    </div>
-                </div>
     
                 <div class="col-md-8">
                     <div class="cardStyleR">

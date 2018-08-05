@@ -4,48 +4,21 @@ body {
     color: rgb(0, 0, 0);
 
 }
-
-
-
-.nav-color {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	background-image: url('../img/star.JPG');
-	background-attachment: fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
-    background-position: top center;
-	opacity: 0.7;	
-	background-color: #ffffff;
-    /* border: 1px solid black; */
-    filter: alpha(opacity=60); 
-}
-
-
-
-
-/* .brand-name */
-.nav-link {
-	color: rgb(0, 0, 0);
-    font-family: 'Berkshire Swash';
-    font-size: 25px;
-    text-decoration: bold;
-    opacity: 1.0;   
-	padding-bottom: 10px;
-	
+/* home page buttons*/
+.home-pg-btn {
+    background: #795588;
+	color: white;
+	border-radius: 0px !important;
+	margin-top: 20px;
 
 }
 
-.nav-link:hover {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    padding-bottom: 1px;
-    
-} 
+  .home-pg-btn:hover {
+    background: #4e3559;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(171, 168, 168);
 
+}
 
 /* all paralax headers affected */
 
@@ -73,7 +46,7 @@ body {
 		overflow: hidden;
 		position: relative;
 		width: 100%;
-		background-image: url('../img/star.JPG');
+		background-image: url('../img/lakeview.jpeg');
 		background-attachment: fixed;
 		background-size: cover;
 		-moz-background-size: cover;
@@ -91,7 +64,7 @@ body {
 		overflow: hidden;
 		position: relative;
 		width: 100%;
-        background-image: url('../img/star.JPG');
+        background-image: url('../img/term5.JPG');
         /* background-color: rgba(2, 217, 255, 0.2); */
 		background-attachment: fixed;
 		background-size: cover;
@@ -102,13 +75,28 @@ body {
 
 }
 
+/* .techPortRow {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	/* background-image: url('../img/term5.JPG'); */
+	/* background-color:rgb(220, 218, 218);	opacity: .5; */
+	/* background-color: rgba(2, 217, 255, 0.2); */
+	/* background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center; */
+/* }  */
+
 .third-parallax {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	background-image: url('../img/penguin.JPG');
+	background-image: url('../img/artbackdrop.JPG');
 	background-attachment: fixed;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -122,42 +110,32 @@ body {
 	text-align: center;
 }
 
-.bottom-part {
+/* .bottom-part {
 	position: absolute;
 	 bottom: 0;
 	 text-align: center;
 	 width: 100%;
 	font-size: 14px;
     background-color: #ffffff;
-    opacity: 0.7;
-	filter: alpha(opacity=60); /* For IE8 and earlier */
-	padding-bottom: 15px;
+    opacity: 0.8;
+	/* filter: alpha(opacity=60); For IE8 and earlier */
+	/* padding-bottom: 15px;
 	padding-top: 15px;
-}
+} */ 
 
-/* div.transbox {
-	padding-top: 30px;
-	padding-bottom: 30px;
-    background-color: #ffffff;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-/* } */
 
-/* .text-bottom {
-	text-align: center;
-} */
 
 .selfport {
-	padding-right: 20px;
-	padding-bottom: 50px;
-	width: 50%;
+	/* padding-right: 20px; */
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 80%;
 	float: left;
-	 
-	
+   	border: 1px ridge #616161;
 }
 
 .paragraph-details {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 
@@ -165,6 +143,8 @@ body {
 .row {
 	margin-bottom: 20px;
 }
+
+
 
 .about-link {
 	text-align: center;
@@ -192,10 +172,10 @@ body {
 .home-text,
 .lead-body {
 	font-family: 'Berkshire Swash', cursive;
-	color: rgb(40, 7, 7);
+	color: rgb(10, 7, 40);
 	text-shadow:
-	-1px -1px 0 rgb(40, 7, 7),
+	-1px -1px 0 rgb(10, 7, 40),
 	1px -1px 0 rgb(255, 255, 255),
-	-1px 1px 0 rgb(40, 7, 7),
+	-1px 1px 0 rgb(10, 7, 40),
 	1px 1px 0 rgb(249, 249, 249);
 }
