@@ -30,11 +30,13 @@
 }
 
 .nav-art {
-    background-image: url('../img/boyanddog.jpg');
+    background-image: url('../img/palette.png');
+    background-color: rgb(25, 16, 36);
 }
 
 .nav-about {
-    background-image: url('../img/star.JPG');
+    background-image: url('../img/sweden.jpg');
+
 }
 
 /* .brand-name */

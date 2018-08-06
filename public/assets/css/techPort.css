@@ -87,13 +87,11 @@ body {
 }
 
 
-/* this to be moved to a joint file once parallax seperated from basic fonts etc. */
-
 
 .home-text {
 	font-size: 50px;
         font-family: 'Berkshire Swash', cursive;
-        color: rgb(228, 205, 255);
+        color: rgb(222, 222, 222);
         text-shadow:
         -1px -1px 0 rgb(40, 7, 7),
         1px -1px 0 rgb(19, 0, 0),
@@ -102,9 +100,25 @@ body {
 }
 
 
-
 .thin-lead-text {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
+.lead-body {
+    font-size: 50px;
+    text-align: right;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.lead-body {
+	font-family: 'Berkshire Swash', cursive;
+	color: rgb(10, 7, 40);
+	text-shadow:
+	-1px -1px 0 rgb(10, 7, 40),
+	1px -1px 0 rgb(255, 255, 255),
+	-1px 1px 0 rgb(10, 7, 40),
+	1px 1px 0 rgb(249, 249, 249);
+}

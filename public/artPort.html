@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+        <head profile="http://www.w3.org/2005/10/profile">
+            <link rel="icon"
+            type="image/png"
+            href="./assets/img/favicon.png"/> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,7 +16,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Artschwager</title>
 </head>
 <body>
       <!-- the header first make the whole top fixed-->
@@ -46,8 +49,7 @@
     </nav>
 
 
-    <div class="parallax techBannerImage">
-        <!-- below is text over 1st background image -->
+    <div class="parallax artBannerImage">
         <div class="home-page-text nav-item transbox">
             <h1 class="home-text">Jennifer Artschwager Art Portfolio</h1>
         </div>
@@ -58,29 +60,34 @@
 
 
     <div class="container">
-        <h1 class="header lead-body thin-lead-text">Freelance and Project work</h1>
-        <h4>Below are sites created for clients or as personal projects to explore new libraries, languages, or packages that interest me.</h4>
+        <h1 class="header lead-body thin-lead-text">Traditional Art</h1>
+        <h4>Drawing or painting are a great way to break through writer's block, and wake up another part of your mind.</h4>
         <!-- Row 1 Oil Flowers begins -->
         <div class="row rowStyling">
            
          </div>
-         <!-- end Row -->
+
+
 
          <!-- row 2 Human studies -->
          <div class="row rowStyling">
                 <div class="col-md-6">
-                    <div class="cardStyleL" id="port-image-2" style="width: 20rem;">
-                        <img class="card-img-top" src="./assets/img/boyanddog.jpg">
+                    <div class="cardStyleL" id="port-image-2">
+                        <img class="card-img-top" id="myImg" src="./assets/img/boyanddog.jpg" alt="boy and his dog">
                         <div class="card-block">
                         </div>
                     </div>
-                </div>
-    
+                    <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
+                    </div>
                 <div class="col-md-6">
                     <div class="cardStyleR">
                         <div class="card-body">
-                            <h5 class="card-title thin-lead-text">Oil painting - still life</h5>
-                            <p class="card-text">An Oil painting with a triangular composition.</p>
+                            <h5 class="card-title thin-lead-text">Oil painting - Boy and his dog</h5>
+                            <p class="card-text">An oil painting with a triangular composition. This was completed with multiple layers to give the sense of depth.</p>
                         </div>
                     </div>
                 </div>
@@ -89,11 +96,16 @@
 <!-- 3 -->
 <div class="row rowStyling">
         <div class="col-md-4">
-            <div class="cardStyleL" id="port-image-2" style="width: 20rem;">
-                <img class="card-img-top" src="./assets/img/Flowers+orange.jpg">
-                <div class="card-block">
-                </div>
-            </div>
+                <div class="cardStyleL" id="port-image-2">
+                        <img class="card-img-top" id="myImg" src="./assets/img/Flowers+orange.jpg" alt="boy and his dog">
+                        <div class="card-block">
+                        </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
         </div>
         <div class="col-md-4">
                 <div class="cardStyleR">
@@ -104,11 +116,16 @@
                 </div>
             </div>
         <div class="col-md-4">
-                <div class="cardStyleL" id="port-image-2" style="width: 20rem;">
-                    <img class="card-img-top" src="./assets/img/longabstract.jpg">
-                    <div class="card-block">
+                <div class="cardStyleL" id="port-image-2">
+                        <img class="card-img-top" id="myImg" src="./assets/img/longabstract.jpg" alt="boy and his dog">
+                        <div class="card-block">
+                        </div>
                     </div>
-                </div>
+                    <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                            </div>
         </div>
 
        
@@ -117,8 +134,6 @@
 
             <!-- Row 4 Children's Books -->
             <div class="row rowStyling">
-               
-        
                     <div class="col-md-4">
                         <div class="cardStyleR">
                             <div class="card-body">
@@ -127,127 +142,131 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                            <div class="cardStyleL" id="port-image-2" style="width: 20rem;">
-                                <img class="card-img-top" src="./assets/img/pitty.jpeg">
-                                <div class="card-block">
+                    <div class="col-md-6">
+                            <div class="cardStyleL" id="port-image-2">
+                                    <img class="card-img-top" id="myImg" src="./assets/img/pitty.jpeg" alt="boy and his dog">
+                                    <div class="card-block">
+                                    </div>
                                 </div>
-                            </div>
+                                <div id="myModal" class="modal">
+                                        <span class="close">&times;</span>
+                                        <img class="modal-content" id="img01">
+                                        <div id="caption"></div>
+                                        </div>
                         </div>
                  </div>
              <!-- end Row -->
              <!-- row 4 Abstract -->
-         <div class="row">  
+         <div class="row rowStyling">  
              <div class="col-md-4">
-                    <div class="cardStyleL" id="port-image-2" style="width: 20rem;">
-                        <img class="card-img-top" src="./assets/img/flowers.jpg">
-                        <div class="card-block">
+                    <div class="cardStyleL" id="port-image-2">
+                            <img class="card-img-top" id="myImg" src="./assets/img/flowers.jpg" alt="boy and his dog">
+                            <div class="card-block">
+                            </div>
                         </div>
-                    </div>
+                        <div id="myModal" class="modal">
+                                <span class="close">&times;</span>
+                                <img class="modal-content" id="img01">
+                                <div id="caption"></div>
+                                </div>
                 </div>
     
                 <div class="col-md-4">
                     <div class="cardStyleR">
-                        <div class="card-body">
+                        <div class="card-body cardStyleR">
                             <h5 class="card-title thin-lead-text">Oil Paintings - Floral</h5>
-                            <p class="card-text">The full flower collection is over 50 pieces of flower studies from pencil to multiple media paintings.</p>
+                            <p class="card-text">The full flower collection is over 50 pieces of flower studies from pencil to large scale paintings. The largest canvas in this series is 2ft x 5ft.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                        <div class="cardStyleL cardStyleR" id="port-image-2" style="width: 20rem;">
-                            <img class="card-img-top" src="./assets/img/flower+painting-2.jpg">
-                            <div class="card-block">
+                        <div class="cardStyleL cardStyleR" id="port-image-2">
+                                <img class="card-img-top" id="myImg" src="./assets/img/flower.painting-2.jpg" alt="boy and his dog">
+                                <div class="card-block">
+                                </div>
                             </div>
-                        </div>
+                            <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                    </div>
                     </div>
                    </div> 
                  <!-- ending container -->
-                </div>
+                 <div class="row rowStyling">
+                        <div class="col-md-6">
+                                <div class="cardStyleL cardStyleR" id="port-image-2">
+                                        <img class="card-img-top" id="myImg" src="./assets/img/jacksonicecream.jpg" alt="boy and his dog">
+                                        <div class="card-block">
+                                        </div>
+                                    </div>
+                                    <div id="myModal" class="modal">
+                                            <span class="close">&times;</span>
+                                            <img class="modal-content" id="img01">
+                                            <div id="caption"></div>
+                                            </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class="cardStyleR cardStyleR">
+                                        <div class="card-body">
+                                            <h5 class="card-title thin-lead-text">Photoshop - Cartoon</h5>
+                                            <p class="card-text">This is one page from a childrens book following one boy through his favorite adventures. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                     </div>
 
+                     <div class="row rowStyle">  
+                            <div class="col-md-4">
+                                <div class="cardStyleR">
+                                    <div class="card-body">
+                                        <h5 class="card-title thin-lead-text">Man in Pastel</h5>
+                                        <p class="card-text">The picture towards the left is a figure drawing meant to capture the uncertainty of the model's choices. </p><br><br>
+                                        <h5 class="card-title thin-lead-text">Oil Painting - Self Portrait</h5>
+                                        <p class="card-text">The self portrait done with a mirror is larger than life at 3 ft x  5ft.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <div class="cardStyleL" id="port-image-2">
+                                        <img class="card-img-top" id="myImg" src="./assets/img/manport.JPG" alt="boy and his dog">
+                                        <div class="card-block">
+                                        </div>
+                                    </div>
+                                    <div id="myModal" class="modal">
+                                            <span class="close">&times;</span>
+                                            <img class="modal-content" id="img01">
+                                            <div id="caption"></div>
+                                            </div>
+                                    </div>
+                            <div class="col-md-4">
+                                    <div class="cardStyleL" id="port-image-2">
+                                        <img class="card-img-top" id="myImg" src="./assets/img/selfport.Jpeg" alt="boy and his dog">
+                                        <div class="card-block">
+                                        </div>
+                                    </div>
+                                    <div id="myModal" class="modal">
+                                            <span class="close">&times;</span>
+                                            <img class="modal-content" id="img01">
+                                            <div id="caption"></div>
+                                            </div>
+                                    </div>
+                                    
+                         </div>
+                        </div>           
+              
+                <div class="artBannerImage">
+                        <div class="home-page-text nav-item transbox">
+                                <h1 class="home-text">Ready to Connect?</h1>
+                                
+                            </div>
+                   </div>
+                   <div class="row end-art-style">
 
-<!-- testing slideshow -->
-<div class="container">
-
-        <!-- Full-width images with number text -->
-        <div class="mySlides">
-          <div class="numbertext">1 / 6</div>
-            <img src="./assets/img/Flowers+orange.jpg" class="car-image-sizing">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">2 / 6</div>
-            <img src="./assets/img/boyanddog.jpg" class="car-image-sizing">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">3 / 6</div>
-            <img src="./assets/img/flowers.jpg" class="car-image-sizing">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">4 / 6</div>
-            <img src="./assets/img/jacksonicecream.jpg" class="car-image-sizing">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">5 / 6</div>
-            <img src="./assets/img/pitty.jpeg" class="car-image-sizing">
-        </div>
-      
-        <div class="mySlides">
-          <div class="numbertext">6 / 6</div>
-            <img src="./assets/img/flower.painting-2.jpg" class="car-image-sizing">
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
-        <!-- Image text -->
-        <div class="caption-container">
-          <p id="caption"></p>
-        </div>
-      
-        <!-- Thumbnail images -->
-        <div class="row">
-          <div class="column">
-            <img class="demo cursor" src="./assets/img/Flowers+orange.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-          </div>
-          <div class="column"> 
-            <img class="demo cursor" src="./assets/img/boyanddog.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="./assets/img/flowers.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="./assets/img/jacksonicecream.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-          </div>
-          <div class="column">
-            <img class="demo cursor" src="./assets/img/pitty.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-          </div> 
-          <div class="column">
-            <img class="demo cursor" src="./assets/img/flower.painting-2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-          </div>
-        </div>
-      </div>
-
-
-      <!-- end slideshow -->
-
-
-
-
-
-   <div class="techBannerImage">
-        <div class="home-page-text nav-item transbox">
-                <h1 class="home-text">Ready to Connect?</h1>
-                
-            </div>
-   </div>
+                    </div>
 
     <!-- creating a sticky footer for all of the pages -->
-    <!-- <div class="container footer-style"> -->
     <footer class="footer">
         <div class="footer-style">
 
@@ -280,41 +299,32 @@
     </footer>
 
 
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="animate.js"></script>
 
     <script>
-    var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
 }
 </script>
 

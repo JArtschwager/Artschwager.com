@@ -1,0 +1,88 @@
+.aboutmeBannerImage {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url('../img/sweden.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+.secondAboutmeBanner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url('../img/reflection.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+.btnGithub {
+    background: #f48e4f;
+    color: white;
+    margin-right: 15px;
+    border-radius: 0px !important;
+
+    
+  }
+
+  .btnGithub:hover {
+    background: #d36e2f;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(171, 168, 168);
+
+
+}
+
+.selfPort-sizing {
+    /* margin-top: 100px; */
+    border-style: ridge;
+    border-color: rgb(97, 97, 97);
+    border-width: thin;
+    position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.home-text {
+	font-size: 50px;
+}
+
+.lead-body {
+    font-size: 50px;
+    text-align: right;
+	/* padding-right: 100px; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+	/* padding-left: 100px; */
+	
+}
+
+.home-text,
+.lead-body {
+	font-family: 'Berkshire Swash', cursive;
+	color: rgb(10, 7, 40);
+	text-shadow:
+	-1px -1px 0 rgb(10, 7, 40),
+	1px -1px 0 rgb(255, 255, 255),
+	-1px 1px 0 rgb(10, 7, 40),
+	1px 1px 0 rgb(249, 249, 249);
+}
+
+
+.card-spacer {
+    margin-right: 30px;
+}

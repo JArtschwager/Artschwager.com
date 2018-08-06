@@ -75,20 +75,6 @@ body {
 
 }
 
-/* .techPortRow {
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	/* background-image: url('../img/term5.JPG'); */
-	/* background-color:rgb(220, 218, 218);	opacity: .5; */
-	/* background-color: rgba(2, 217, 255, 0.2); */
-	/* background-attachment: fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center; */
-/* }  */
 
 .third-parallax {
 	padding-top: 200px;
@@ -109,20 +95,6 @@ body {
 .container {
 	text-align: center;
 }
-
-/* .bottom-part {
-	position: absolute;
-	 bottom: 0;
-	 text-align: center;
-	 width: 100%;
-	font-size: 14px;
-    background-color: #ffffff;
-    opacity: 0.8;
-	/* filter: alpha(opacity=60); For IE8 and earlier */
-	/* padding-bottom: 15px;
-	padding-top: 15px;
-} */ 
-
 
 
 .selfport {
@@ -159,14 +131,12 @@ body {
 	font-size: 100px;
 	margin-bottom: 50px;
 }
+
 .lead-body {
     font-size: 50px;
     text-align: right;
-	/* padding-right: 100px; */
 	padding-top: 30px;
 	padding-bottom: 30px;
-	/* padding-left: 100px; */
-	
 }
 
 .home-text,

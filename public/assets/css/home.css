@@ -1,0 +1,67 @@
+/* home page buttons*/
+.home-pg-btn {
+    background: #795588;
+	color: white;
+	border-radius: 0px !important;
+	margin-top: 20px;
+
+}
+
+  .home-pg-btn:hover {
+    background: #4e3559;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(171, 168, 168);
+
+}
+
+
+.parallax {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url('../img/lakeview.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+/* meet the designer */
+
+.second-parallax {
+padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url('../img/term5.JPG');
+    /* background-color: rgba(2, 217, 255, 0.2); */
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+
+
+.third-parallax {
+padding-top: 200px;
+padding-bottom: 200px;
+overflow: hidden;
+position: relative;
+width: 100%;
+background-image: url('../img/artbackdrop.JPG');
+background-attachment: fixed;
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+}
