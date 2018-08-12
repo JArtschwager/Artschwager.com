@@ -7,8 +7,6 @@
 	overflow: hidden;
 	position: relative;
     width: 100%;
-    /* background-color: rgb(217, 214, 218); */
-	/* background-image: url('../img/macbook.jpg'); */
 	background-attachment: fixed;
 	background-size: cover;
 	-moz-background-size: cover;
@@ -16,10 +14,13 @@
 	background-repeat: no-repeat;
     background-position: top center;
 	opacity: 0.8;	
-	background-color: #ffffff;
     border: 1px ridge black;
    filter: alpha(opacity=60); 
+   font-weight: bold;
+
 }
+
+
 
 .nav-tech {
     background-image: url('../img/macbook.jpg');
@@ -31,7 +32,7 @@
 
 .nav-art {
     background-image: url('../img/palette.png');
-    background-color: rgb(25, 16, 36);
+    background-color: rgb(42, 34, 52);
 }
 
 .nav-about {
@@ -53,8 +54,7 @@
 }
 
 .nav-link:hover {
-    color: rgb(121, 121, 121);
-    padding-bottom: 1px;
+    color: rgb(7, 7, 7);
     text-decoration-style: bold;
     
 } 

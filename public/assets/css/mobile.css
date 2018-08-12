@@ -1,0 +1,33 @@
+/* mobile site */
+
+@media only screen and (max-width: 600px) {
+
+	.navbar-collapse {
+		color: black;
+	}
+	
+	/* first parallax font size */
+	.home-text {
+		font-size: 40px;
+		margin-bottom: 50px;
+	}
+/* my picture centered */
+.selfport {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	width: 100%;
+}
+/* title text centered */
+.lead-body {
+    text-align: center;
+}
+
+.card-img-top {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+}

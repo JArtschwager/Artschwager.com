@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head profile="http://www.w3.org/2005/10/profile">
-            <link rel="icon"
-            type="image/png"
-            href="./assets/img/favicon.png"/> 
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/techPort.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/artport.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
     <title>Artschwager</title>
 </head>
-<body>
-      <!-- the header first make the whole top fixed-->
-      <nav class="navbar navbar-expand-lg nav text-light nav-color nav-art">
 
-        <!-- then make a container so the text is in from the edge -->
-        <div class="container">
-            <!-- <a class="navbar-brand brand-name navbar-fixed-top"></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
+<body>
+    
+        <nav class="navbar navbar-expand-lg nav-color nav-art">
+                <div class="container">
+                    <a class="navbar-brand text-light nav-about" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
+                          <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/aboutme">About Me</a>
+                          <a class="nav-link" href="/aboutme">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/techPortfolio">Tech Portfolio</a>
+                          <a class="nav-link" href="/techPortfolio">Tech Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/artPortfolio">Art Portfolio</a>
+                          <a class="nav-link" href="/artPortfolio">Art Portfolio</a>
                         </li>
-                    </ul>
-                </div>
-        </div>
-    </nav>
+                      </ul>
+                    </div>
+                    </div>
+                </nav>
 
 
     <div class="parallax artBannerImage">
@@ -54,217 +56,225 @@
             <h1 class="home-text">Jennifer Artschwager Art Portfolio</h1>
         </div>
         <div class="bottom-part">
-                <h2 class="text-bottom"><br></h2>
+            <h2 class="text-bottom">
+                <br>
+            </h2>
         </div>
     </div>
 
 
     <div class="container">
+        <!-- Row 1 -->
+
         <h1 class="header lead-body thin-lead-text">Traditional Art</h1>
-        <h4>Drawing or painting are a great way to break through writer's block, and wake up another part of your mind.</h4>
-        <!-- Row 1 Oil Flowers begins -->
+        <h4>Drawing or painting are a great way to break through writer's block, and wake up another part of your mind. Below
+            are pieces created by Oil paint, acrylics, watercolor, photoshop and pastels.</h4>
         <div class="row rowStyling">
-           
-         </div>
 
+        </div>
 
-
-         <!-- row 2 Human studies -->
-         <div class="row rowStyling">
-                <div class="col-md-6">
-                    <div class="cardStyleL" id="port-image-2">
-                        <img class="card-img-top" id="myImg" src="./assets/img/boyanddog.jpg" alt="boy and his dog">
-                        <div class="card-block">
-                        </div>
-                    </div>
-                    <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                            </div>
-                    </div>
-                <div class="col-md-6">
-                    <div class="cardStyleR">
-                        <div class="card-body">
-                            <h5 class="card-title thin-lead-text">Oil painting - Boy and his dog</h5>
-                            <p class="card-text">An oil painting with a triangular composition. This was completed with multiple layers to give the sense of depth.</p>
-                        </div>
+        <!-- row 2 -->
+        <div class="row rowStyling">
+            <div class="col-md-6">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/boyanddog.jpg" alt="A boy and his dog">
+                    <div class="card-block">
                     </div>
                 </div>
-             </div>
-
-<!-- 3 -->
-<div class="row rowStyling">
-        <div class="col-md-4">
-                <div class="cardStyleL" id="port-image-2">
-                        <img class="card-img-top" id="myImg" src="./assets/img/Flowers+orange.jpg" alt="boy and his dog">
-                        <div class="card-block">
-                        </div>
-                    </div>
-                    <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                            </div>
-        </div>
-        <div class="col-md-4">
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
                 <div class="cardStyleR">
                     <div class="card-body">
-                        <h5 class="card-title thin-lead-text">Acrylic</h5>
-                        <p class="card-text">Acrylic paintings are great for vibrant colors from a more realisitc feel to fully abstract. It's fast drying nature leads to easy layering which allows for wonderful texture to be added to the canvas.</p>
+                        <h5 class="card-title thin-lead-text">Oil painting - Boy and his dog</h5>
+                        <p class="card-text">An oil painting with a triangular composition. This was completed with multiple layers to give the sense of depth.</p>
                     </div>
                 </div>
             </div>
-        <div class="col-md-4">
-                <div class="cardStyleL" id="port-image-2">
-                        <img class="card-img-top" id="myImg" src="./assets/img/longabstract.jpg" alt="boy and his dog">
-                        <div class="card-block">
-                        </div>
-                    </div>
-                    <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                            </div>
         </div>
 
-       
-     </div>
-     <!-- end 3 -->
-
-            <!-- Row 4 Children's Books -->
-            <div class="row rowStyling">
-                    <div class="col-md-4">
-                        <div class="cardStyleR">
-                            <div class="card-body">
-                                <h5 class="card-title thin-lead-text">Watercolor - abstract</h5>
-                                <p class="card-text">This rainbow pitbull was used to soften the breed's image with a washed out and bright portrait.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                            <div class="cardStyleL" id="port-image-2">
-                                    <img class="card-img-top" id="myImg" src="./assets/img/pitty.jpeg" alt="boy and his dog">
-                                    <div class="card-block">
-                                    </div>
-                                </div>
-                                <div id="myModal" class="modal">
-                                        <span class="close">&times;</span>
-                                        <img class="modal-content" id="img01">
-                                        <div id="caption"></div>
-                                        </div>
-                        </div>
-                 </div>
-             <!-- end Row -->
-             <!-- row 4 Abstract -->
-         <div class="row rowStyling">  
-             <div class="col-md-4">
-                    <div class="cardStyleL" id="port-image-2">
-                            <img class="card-img-top" id="myImg" src="./assets/img/flowers.jpg" alt="boy and his dog">
-                            <div class="card-block">
-                            </div>
-                        </div>
-                        <div id="myModal" class="modal">
-                                <span class="close">&times;</span>
-                                <img class="modal-content" id="img01">
-                                <div id="caption"></div>
-                                </div>
-                </div>
-    
-                <div class="col-md-4">
-                    <div class="cardStyleR">
-                        <div class="card-body cardStyleR">
-                            <h5 class="card-title thin-lead-text">Oil Paintings - Floral</h5>
-                            <p class="card-text">The full flower collection is over 50 pieces of flower studies from pencil to large scale paintings. The largest canvas in this series is 2ft x 5ft.</p>
-                        </div>
+        <!-- 3 -->
+        <div class="row rowStyling">
+            <div class="col-md-4">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/Flowers+orange.jpg" alt="Blooming Flowers">
+                    <div class="card-block">
                     </div>
                 </div>
-                <div class="col-md-4">
-                        <div class="cardStyleL cardStyleR" id="port-image-2">
-                                <img class="card-img-top" id="myImg" src="./assets/img/flower.painting-2.jpg" alt="boy and his dog">
-                                <div class="card-block">
-                                </div>
-                            </div>
-                            <div id="myModal" class="modal">
-                                    <span class="close">&times;</span>
-                                    <img class="modal-content" id="img01">
-                                    <div id="caption"></div>
-                                    </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardStyleR">
+                    <div class="card-body">
+                        <h5 class="card-title thin-lead-text">Acrylic</h5>
+                        <p class="card-text">Acrylic paintings are great for vibrant colors from a more realisitc feel to fully abstract. It's
+                            fast drying nature leads to easy layering which allows for wonderful texture to be added to the
+                            canvas.</p>
                     </div>
-                   </div> 
-                 <!-- ending container -->
-                 <div class="row rowStyling">
-                        <div class="col-md-6">
-                                <div class="cardStyleL cardStyleR" id="port-image-2">
-                                        <img class="card-img-top" id="myImg" src="./assets/img/jacksonicecream.jpg" alt="boy and his dog">
-                                        <div class="card-block">
-                                        </div>
-                                    </div>
-                                    <div id="myModal" class="modal">
-                                            <span class="close">&times;</span>
-                                            <img class="modal-content" id="img01">
-                                            <div id="caption"></div>
-                                            </div>
-                            </div>
-                            <div class="col-md-6">
-                                    <div class="cardStyleR cardStyleR">
-                                        <div class="card-body">
-                                            <h5 class="card-title thin-lead-text">Photoshop - Cartoon</h5>
-                                            <p class="card-text">This is one page from a childrens book following one boy through his favorite adventures. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                     </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/longabstract.jpg" alt="Abstract Night sky and Ocean">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
 
-                     <div class="row rowStyle">  
-                            <div class="col-md-4">
-                                <div class="cardStyleR">
-                                    <div class="card-body">
-                                        <h5 class="card-title thin-lead-text">Man in Pastel</h5>
-                                        <p class="card-text">The picture towards the left is a figure drawing meant to capture the uncertainty of the model's choices. </p><br><br>
-                                        <h5 class="card-title thin-lead-text">Oil Painting - Self Portrait</h5>
-                                        <p class="card-text">The self portrait done with a mirror is larger than life at 3 ft x  5ft.</p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                    <div class="cardStyleL" id="port-image-2">
-                                        <img class="card-img-top" id="myImg" src="./assets/img/manport.JPG" alt="boy and his dog">
-                                        <div class="card-block">
-                                        </div>
-                                    </div>
-                                    <div id="myModal" class="modal">
-                                            <span class="close">&times;</span>
-                                            <img class="modal-content" id="img01">
-                                            <div id="caption"></div>
-                                            </div>
-                                    </div>
-                            <div class="col-md-4">
-                                    <div class="cardStyleL" id="port-image-2">
-                                        <img class="card-img-top" id="myImg" src="./assets/img/selfportpaint.jpeg" alt="self portrait">
-                                        <div class="card-block">
-                                        </div>
-                                    </div>
-                                    <div id="myModal" class="modal">
-                                            <span class="close">&times;</span>
-                                            <img class="modal-content" id="img01">
-                                            <div id="caption"></div>
-                                            </div>
-                                    </div>
-                                    
-                         </div>
-                        </div>           
-              
-                <div class="artBannerImage">
-                        <div class="home-page-text nav-item transbox">
-                                <h1 class="home-text">Ready to Connect?</h1>
-                                
-                            </div>
-                   </div>
-                   <div class="row end-art-style">
+
+        </div>
+        <!-- end 3 -->
+
+        <!-- Row 4 Children's Books -->
+        <div class="row rowStyling">
+            <div class="col-md-4">
+                <div class="cardStyleR">
+                    <div class="card-body">
+                        <h5 class="card-title thin-lead-text">Watercolor - abstract</h5>
+                        <p class="card-text">This rainbow pitbull was used to soften the breed's image with a washed out and bright portrait.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/pitty.jpeg" alt="Pitty colors">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
+        <!-- end Row -->
+        <!-- row 4 Abstract -->
+        <div class="row rowStyling">
+            <div class="col-md-4">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/flowers.jpg" alt="Sunflower bouquet">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="cardStyleR">
+                    <div class="card-body cardStyleR">
+                        <h5 class="card-title thin-lead-text">Oil Paintings - Floral</h5>
+                        <p class="card-text">The full flower collection is over 50 pieces of flower studies from pencil to large scale paintings.
+                            The largest canvas in this series is 2ft x 5ft.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardStyleL cardStyleR" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/flower.painting-2.jpg" alt="Close up bouquet">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ending container -->
+        <div class="row rowStyling">
+            <div class="col-md-6">
+                <div class="cardStyleL cardStyleR" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/jacksonicecream.jpg" alt="Banana Split">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="cardStyleR cardStyleR">
+                    <div class="card-body">
+                        <h5 class="card-title thin-lead-text">Photoshop - Cartoon</h5>
+                        <p class="card-text">This is one page from a childrens book following one boy through his favorite adventures. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row rowStyle">
+            <div class="col-md-4">
+                <div class="cardStyleR">
+                    <div class="card-body">
+                        <h5 class="card-title thin-lead-text">Man in Pastel</h5>
+                        <p class="card-text">The picture towards the left is a figure drawing meant to capture the uncertainty of the model's
+                            choices. </p>
+                        <br>
+                        <br>
+                        <h5 class="card-title thin-lead-text">Oil Painting - Self Portrait</h5>
+                        <p class="card-text">The self portrait done with a mirror is larger than life at 3 ft x 5ft.</p>
 
                     </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/manport.JPG" alt="Veins and flesh Pastel Portrait">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardStyleL" id="port-image-2">
+                    <img class="card-img-top myImg" src="./assets/img/selfportpaint.jpeg" alt="Self portrait">
+                    <div class="card-block">
+                    </div>
+                </div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="artBannerImage">
+        <div class="home-page-text nav-item transbox">
+            <h1 class="home-text">Ready to Connect?</h1>
+
+        </div>
+    </div>
+    <div class="row end-art-style">
+
+    </div>
 
     <!-- creating a sticky footer for all of the pages -->
     <footer class="footer">
@@ -272,61 +282,57 @@
 
             <h3 class="connectFooter"> Connect.
                 <span class="spacer"> </span> Contact.
-              <span class="spacer"></span> Code.</h3>
+                <span class="spacer"></span> Code.</h3>
 
             <!-- links to etsy, and email -->
-            <div class="container">            
+            <div class="container">
                 <span class="spacer"></span>
                 <div class="linkimages">
-                        <a href="https://www.linkedin.com/in/jartschwager/" target="_blank">
-                            <img class="imagesize" border="0" alt="Github account" src="./assets/img/linkedin.png">
-                        </a>
-                    </div>
-                    <span class="spacer"></span>
+                    <a href="https://www.linkedin.com/in/jartschwager/" target="_blank" class="link-line">
+                        <img class="imagesize" border="0" alt="Github account" src="./assets/img/linkedin.png">
+                    </a>
+                </div>
+                <span class="spacer"></span>
                 <div class="linkimages">
-                    <a href="mailto:Jennifer@artschwager.com">
+                    <a href="mailto:Jennifer@artschwager.com" class="link-line">
                         <img class="imagesize" border="0" alt="email link" src="./assets/img/email.png">
                     </a>
                 </div>
                 <div class="linkimages">
-                        <a href="https://github.com/JArtschwager" target="_blank">
-                            <img class="imagesize" border="0" alt="Github account" src="./assets/img/github.png">
-                        </a>
-                    </div>
+                    <a href="https://github.com/JArtschwager" target="_blank" class="link-line">
+                        <img class="imagesize" border="0" alt="Github account" src="./assets/img/github.png">
+                    </a>
+                </div>
             </div>
             <p class="copyright">Jennifer Artschwager 2018 </p>
         </div>
     </footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="animate.js"></script>
 
     <script>
+        // for modal pictures pop up.
+        var modal = document.getElementById('myModal');
 
+        var img = $('.myImg');
+        var modalImg = $('#img01');
+        var captionText = document.getElementById("caption");
+        $('.myImg').click(function () {
+            modal.style.display = "block";
+            var newSrc = this.src;
+            modalImg.attr('src', newSrc);
+            captionText.innerHTML = this.alt;
+        })
 
-// Get the modal
-var modal = document.getElementById('myModal');
+        var span = document.getElementsByClassName("close")[0];
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
 
 </body>
+
 </html>

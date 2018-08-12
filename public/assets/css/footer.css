@@ -41,5 +41,11 @@ footer {
 /* below is me trying to get ride of the line showing on hover for the footer images.  come back with solution. */
 .imagesize:hover {
 color: #FFFFFF;
-text-decoration: none;
+opacity: 0.5;
 }
+
+
+.link-line:hover {
+	text-decoration: none;
+}
+

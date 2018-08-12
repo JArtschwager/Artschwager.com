@@ -15,9 +15,6 @@
     text-align: center;
 }
 
-/* .background-color {
-    background-color: black;
-} */
 
 .car-image-sizing {
     position: center;
@@ -26,132 +23,31 @@
     vertical-align: middle
 }
 
-/* everything below is the template for the slideshow */
 
-
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-    /* background-color: black; */
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-    position: center;
-    width: auto;
-    padding-left: 7.5%;
-  }
-
-
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: rgb(82, 81, 81);
-    padding: 2px 16px;
-    color: white;
-    
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-
-
-  /* ////////////////////////////////// */
-
-  /* Style the Image Used to Trigger the Modal */
-#myImg {
+  /* Style for the modal's of photos below until end line */
+ .myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+.myImg:hover {
+    opacity: 0.7;
 }
 
-/* Modal Content (Image) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(26, 25, 25, 0.9);
+}
+
 .modal-content {
     margin: auto;
     display: block;
@@ -159,8 +55,7 @@
     max-width: 700px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-.caption {
+#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -171,14 +66,20 @@
     height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
-.modal-content, .caption { 
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
 @keyframes zoom {
-    from {transform:scale(0)} 
+    from {transform:scale(0)}
     to {transform:scale(1)}
 }
 
@@ -200,34 +101,6 @@
     cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
-
-
-
-
-/* 
-.nav-color-artPort {
-	overflow: hidden;
-	position: relative;
-    width: 100%; */
-    /* background-color: rgb(217, 214, 218); */
-	/* background-image: url('../img/macbook.jpg'); */
-	/* background-attachment: fixed;
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
-    background-position: top center;
-	opacity: 0.8;	
-	background-color: #ffffff;
-    border: 1px ridge black;
-   filter: alpha(opacity=60); 
-} */
 
 .nav-link-artPort {
 	color: rgb(2, 2, 2);
@@ -237,8 +110,6 @@
     opacity: 1.0;   
     padding-bottom: 10px;
     padding-right: 20px;
-	
-
 }
 
 .nav-link-artPort:hover {
