@@ -27,8 +27,14 @@
         <nav class="navbar navbar-expand-lg nav-color nav-home">
                 <div class="container">
                     <a class="navbar-brand text-light nav-about" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <!-- <span class="navbar-toggler-icon"></span> -->
+                      <div class="burger-container" onclick="xFunction(this)">
+                            <div class="custom-burger-1"></div>
+                            <div class="custom-burger-2"></div>
+                            <div class="custom-burger-3"></div>
+                      </div>
+
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
@@ -166,6 +172,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 
+<script>
+        function xFunction(x) {
+            x.classList.toggle("change");
+
+
+        }
+
+        </script>
 </body>
 
 </html>

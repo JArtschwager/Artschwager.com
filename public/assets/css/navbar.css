@@ -58,3 +58,42 @@
     text-decoration-style: bold;
     
 } 
+
+.burger {
+    color: #000000;
+    background-color: rgb(206, 201, 201);
+    display: inline-block;
+    font-family: inherit;
+    outline: 2;
+    border: 2;
+    border-radius: 2px;
+    color: rgb(153, 86, 86) !important;
+
+    
+}
+
+
+.burger-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.custom-burger-1 , .custom-burger-2, .custom-burger-3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+.change .custom-burger-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .custom-burger-2 {opacity: 0;}
+
+.change .custom-burger-3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
