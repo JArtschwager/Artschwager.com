@@ -132,15 +132,9 @@ body {
 	margin-bottom: 50px;
 }
 
-.lead-body {
-    font-size: 50px;
-    text-align: right;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
 
-.home-text,
-.lead-body {
+
+.home-text {
 	font-family: 'Berkshire Swash', cursive;
 	color: rgb(10, 7, 40);
 	text-shadow:
@@ -148,5 +142,6 @@ body {
 	1px -1px 0 rgb(255, 255, 255),
 	-1px 1px 0 rgb(10, 7, 40),
 	1px 1px 0 rgb(249, 249, 249);
+	
 }
 

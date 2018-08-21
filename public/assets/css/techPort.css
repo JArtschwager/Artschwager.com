@@ -100,11 +100,11 @@ body {
 }
 
 
-.thin-lead-text {
+/* .thin-lead-text {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-}
-
+} */
+/* 
 .lead-body {
     font-size: 50px;
     text-align: right;
@@ -121,4 +121,4 @@ body {
 	1px -1px 0 rgb(255, 255, 255),
 	-1px 1px 0 rgb(10, 7, 40),
 	1px 1px 0 rgb(249, 249, 249);
-}
+} */

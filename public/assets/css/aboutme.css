@@ -56,32 +56,42 @@ top: 50%;
 transform: translateY(-50%);
 }
 
-.home-text {
+/* .home-text {
 	font-size: 50px;
 }
 
 .lead-body {
     font-size: 50px;
-    text-align: right;
-	/* padding-right: 100px; */
+    text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	/* padding-left: 100px; */
 	
-}
+} */
 
-.home-text,
-.lead-body {
+.home-text{
 	font-family: 'Berkshire Swash', cursive;
 	color: rgb(10, 7, 40);
 	text-shadow:
 	-1px -1px 0 rgb(10, 7, 40),
 	1px -1px 0 rgb(255, 255, 255),
 	-1px 1px 0 rgb(10, 7, 40),
-	1px 1px 0 rgb(249, 249, 249);
+    1px 1px 0 rgb(249, 249, 249);
+    font-size: 50px;
+    text-align: right;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+	font-size: 50px;
+
 }
 
 
 .card-spacer {
-    margin-right: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    text-align: center;
 }
