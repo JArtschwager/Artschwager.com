@@ -59,7 +59,7 @@ body {
 /* meet the designer */
 
 .second-parallax {
-	padding-top: 200px;
+		padding-top: 400px;
 		padding-bottom: 200px;
 		overflow: hidden;
 		position: relative;
@@ -145,3 +145,7 @@ body {
 	
 }
 
+.spacer-home {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
