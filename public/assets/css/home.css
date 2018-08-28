@@ -21,6 +21,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+    height: auto;
     background-image: url('../img/lakeview.jpeg');
     background-attachment: fixed;
     background-size: cover;
@@ -39,6 +40,7 @@ padding-top: 200px;
     overflow: hidden;
     position: relative;
     width: 100%;
+    height: auto;
     background-image: url('../img/term5.JPG');
     /* background-color: rgba(2, 217, 255, 0.2); */
     background-attachment: fixed;
@@ -57,6 +59,7 @@ padding-bottom: 200px;
 overflow: hidden;
 position: relative;
 width: 100%;
+height: auto;
 background-image: url('../img/artbackdrop.JPG');
 background-attachment: fixed;
 background-size: cover;
